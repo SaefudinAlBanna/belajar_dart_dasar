@@ -9,6 +9,8 @@ kemudian d return kan ke total
 setelah itu di deklarasikan untuk function sum() didalam void main
 karena list/ array menggunakan [], maka didalam function sum menggunakan tanda [] didalamnya
 */
+library;
+
 
 //return integer
 

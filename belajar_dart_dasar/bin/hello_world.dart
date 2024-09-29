@@ -7,18 +7,18 @@ void main(){
 // INI KATA KUNCI MENGGUNAKAN VAR (VAR ADALAH KATA KUNCI YANG OTOMATIS MENCARI TIPE DATA YANG SESUAI)
 //==================================================================================================
 
-var kataKunciMenjadiString;
+String kataKunciMenjadiString;
 kataKunciMenjadiString ='ini isi name yang dikasih tipe data var value string';
-var kataKunciMenjadiInteger;
+int kataKunciMenjadiInteger;
 kataKunciMenjadiInteger = 10;
-var kataKunciMenjadiDouble;
+double kataKunciMenjadiDouble;
 kataKunciMenjadiDouble =20.5;
 
 // KITA COBA PAKE KATA KUNCI FINAL
 // KATA KUNCI FINAL ADALAH KATA KUNCI YANG ISI VARIABLE NYA TIDAK BISA DIUBA SETELAH DIDEKLARASIKAN
 //==================================================================================================
 
-final kataKunciFinalString;
+final String kataKunciFinalString;
 kataKunciFinalString = 'ini kata kunci final string';
 
 // print(kataKunciFinalString);
@@ -79,7 +79,7 @@ nilaiInteger =10;
 
 String cobaStringInterpolation;
 cobaStringInterpolation = '''ini isi string, 
-disisipi \'interpolation\' yang tandanya \$
+disisipi 'interpolation' yang tandanya \$
 contohnya dibawah
 $kataKunciMenjadiDouble dan juga ${array[1]}''';
 
@@ -289,7 +289,7 @@ contohnya dibawah ya
 var nilaiPertama = 70;
 var nilaiKedua = 70;
 // String? ucapan; // ini berhasil
-var ucapan; // ini juga berhasil
+String ucapan; // ini juga berhasil
 
 
 if(nilaiPertama >= 70 && nilaiKedua >= 75) {
@@ -352,12 +352,6 @@ adalah pengecekan ketika variable apakah null atau tidak maka bisa di cek menggu
 
  var umur;
  int? nullUmur = umur;
-
- //kita cek,apakah umur null atau tidak (null check)
-
- if(umur != null){
-    nullUmur = umur;
- }
 
  //statement diatas bisa kita persingkat menggunakan
 

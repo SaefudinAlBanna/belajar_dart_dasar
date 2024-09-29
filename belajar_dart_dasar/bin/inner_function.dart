@@ -9,6 +9,8 @@
   dari dalam outer function saja, tidak bisa diakses di luar outer function.
 - untuk lebih detail silahkan nanti pelajari materi scope di dart
  */
+library;
+
 
  // contoh inner function
 

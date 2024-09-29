@@ -7,6 +7,8 @@
   mendapatkan input yang flexibel, berupa function,
   yang bisa di deklarasikan oleh pengguna ketika memanggil function tersebut.
  */
+library;
+
 
  //contoh membuat function yang menapilkan nama, dan namanya tersebut mau di filter ketika ada kata2 kasar.
 

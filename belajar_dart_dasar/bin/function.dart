@@ -11,6 +11,8 @@
 
 * blok adalah - {}
  */ 
+library;
+
 
  // CONTOH FUNCTION
 
