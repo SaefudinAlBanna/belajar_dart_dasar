@@ -1,5 +1,7 @@
 main(){
-    var counter = 1;
+    // var counter = 1;
 
-    for(;counter <= 10);
+    // for(;counter <= 10){
+
+    // }
 }
